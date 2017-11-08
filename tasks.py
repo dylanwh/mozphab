@@ -12,7 +12,7 @@ def version(ctx):
     print(json.dumps({
         'commit':
         os.getenv('CIRCLE_SHA1', None),
-        'version':
+        'mozphab_version':
         os.getenv('CIRCLE_SHA1', None),
         'source':
         'https://github.com/%s/%s' % (
